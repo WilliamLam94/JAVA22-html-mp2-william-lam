@@ -1,10 +1,32 @@
-.logo {
-	width: 40%;
-}
-.container {
+header {
 	display: flex;
 	flex-wrap: wrap;
-	/* max-width: 1200px; */
+	justify-content: center;
+}
+
+.logo {
+	width: 25%;
+	padding: 2rem;
+}
+
+nav {
+	flex-basis: 100%;
+	background-color: #90a955;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.title-favorites {
+	padding: 1rem;
+}
+
+.article-wraper {
+	display: flex;
+	flex-wrap: wrap;
 	margin: 0 auto;
 	background-color: #90a955;
 }
@@ -13,4 +35,23 @@
 	display: flex;
 	flex-basis: 50%;
 	padding: 4rem 2rem;
+}
+
+.pizza-img {
+	width: 50%;
+}
+
+.price {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+footer {
+	padding: 2rem;
+}
+
+.contact {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }

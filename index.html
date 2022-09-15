@@ -16,12 +16,14 @@
 	</head>
 	<body>
 		<header>
-			<div class="logo">
-				<img src="./images/fredos-logo.jpeg" alt="Fredos" class="logo" />
-			</div>
-			<nav class="navbar navbar-expand-lg" style="background-color: #90a955">
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			<img src="./images/fredos-logo.jpeg" alt="Fredos" class="logo" />
+
+			<nav class="navbar navbar-expand-lg">
+				<div
+					class="collapse navbar-collapse d-flex justify-content-center"
+					id="navbarSupportedContent"
+				>
+					<ul class="navbar-nav mb-2 mb-lg-0">
 						<li class="nav-item">
 							<a class="nav-link active" aria-current="page" href="#">Meny</a>
 						</li>
@@ -43,84 +45,103 @@
 			</nav>
 		</header>
 		<main>
-			<h3>Lokala favoriter</h3>
-			<section class="container">
-				<article class="flex-item">
-					<img src="./images/margherita.png" alt="margherita" />
-					<div class="pizza-info">
-						<h3>Margherita</h3>
-						<p class="menu-paragraph">
-							<span class="ingredients"
-								>Tomatsås, mozzarella och basilika
-							</span>
-							<span class="price">94:-</span>
-						</p>
-					</div>
-				</article>
+			<section>
+				<h3 class="title-favorites">Lokala favoriter</h3>
+				<div class="container article-wraper">
+					<article class="flex-item">
+						<img
+							src="./images/margherita.png"
+							alt="margherita"
+							class="pizza-img"
+						/>
+						<div class="pizza-info">
+							<h3>Margherita</h3>
+							<p class="menu-paragraph">
+								<span class="ingredients"
+									>Tomatsås, mozzarella och basilika
+								</span>
+							</p>
+							<p class="price">94:-</p>
+						</div>
+					</article>
 
-				<article class="flex-item">
-					<img src="./images/Capricciosa.png" alt="capricciosa" />
-					<div class="pizza-info">
-						<h3>Capricciosa</h3>
-						<p class="menu-paragraph">
-							<span class="ingredients"
-								>Tomatsås, Fredo's ostblandning, champinjoner och kokt skivad
-								delikatesskinka
-							</span>
-							<span class="price">115:-</span>
-						</p>
-					</div>
-				</article>
+					<article class="flex-item">
+						<img
+							src="./images/Capricciosa.png"
+							alt="capricciosa"
+							class="pizza-img"
+						/>
+						<div class="pizza-info">
+							<h3>Capricciosa</h3>
+							<p class="menu-paragraph">
+								<span class="ingredients"
+									>Tomatsås, Fredo's ostblandning, champinjoner och kokt skivad
+									delikatesskinka
+								</span>
+							</p>
+							<p class="price">115:-</p>
+						</div>
+					</article>
 
-				<article class="flex-item">
-					<img src="./images/Kebab.png" alt="kebab" />
-					<div class="pizza-info">
-						<h3>Kebab</h3>
-						<p class="menu-paragraph">
-							<span class="ingredients"
-								>Tomatsås, Fredo's ostblandning, nötkött, rucola, rödlök,
-								körsbärstomater, vitlök, feferoni och vitlöksdressing
-							</span>
-							<span class="price">119:-</span>
-						</p>
-					</div>
-				</article>
+					<article class="flex-item">
+						<img src="./images/Kebab.png" alt="kebab" class="pizza-img" />
+						<div class="pizza-info">
+							<h3>Kebab</h3>
+							<p class="menu-paragraph">
+								<span class="ingredients"
+									>Tomatsås, Fredo's ostblandning, nötkött, rucola, rödlök,
+									körsbärstomater, vitlök, feferoni och vitlöksdressing
+								</span>
+							</p>
+							<p class="price">119:-</p>
+						</div>
+					</article>
 
-				<article class="flex-item">
-					<img src="./images/SalamiPiccante.png" alt="salamipiccante" />
-					<div class="pizza-info">
-						<h3>Salami Piccante</h3>
-						<p class="menu-paragraph">
-							<span class="ingredients"
-								>Tomatsås, mozzarella, kryddad salami, oliver och rucolaa
-							</span>
-							<span class="price">124:-</span>
-						</p>
-					</div>
-				</article>
+					<article class="flex-item">
+						<img
+							src="./images/SalamiPiccante.png"
+							alt="salamipiccante"
+							class="pizza-img"
+						/>
+						<div class="pizza-info">
+							<h3>Salami Piccante</h3>
+							<p class="menu-paragraph">
+								<span class="ingredients"
+									>Tomatsås, mozzarella, kryddad salami, oliver och rucolaa
+								</span>
+							</p>
+							<p class="price">124:-</p>
+						</div>
+					</article>
 
-				<article class="flex-item">
-					<img src="./images/GetostHonung.png" alt="getosthonung" />
-					<div class="pizza-info">
-						<h3>Getost Honung</h3>
-						<p class="menu-paragraph">
-							<span class="ingredients"
-								>Mozzarella, getost, honung, färsk peppar, pinjenötter och
-								rucola
-							</span>
-							<span class="price">144:-</span>
-						</p>
-					</div>
-				</article>
+					<article class="flex-item">
+						<img
+							src="./images/GetostHonung.png"
+							alt="getosthonung"
+							class="pizza-img"
+						/>
+						<div class="pizza-info">
+							<h3>Getost Honung</h3>
+							<p class="menu-paragraph">
+								<span class="ingredients"
+									>Mozzarella, getost, honung, färsk peppar, pinjenötter och
+									rucola
+								</span>
+							</p>
+							<p class="price">144:-</p>
+						</div>
+					</article>
+				</div>
 			</section>
 		</main>
-		<footer>
+		<footer class="container">
 			<h3>Våra restuaranger</h3>
-			<h4>Adress</h4>
-			<p>
-				Fredo's Pizzagastronomia Drottninggatan 2C 21211 Malmö
-				<a href="tel:010-2202121">010-220 21 21</a>
-			</p>
+			<h4>Värnhem</h4>
+			<ul class="contact">
+				<li>Fredo's Pizzagastronomia</li>
+				<li>Drottninggatan 2C 21211 Malmö</li>
+				<li><a href="tel:010-2202121">010-220 21 21</a></li>
+			</ul>
 		</footer>
 	</body>
 </html>
