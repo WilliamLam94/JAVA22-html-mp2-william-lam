@@ -50,9 +50,10 @@ footer {
 	padding: 2rem;
 }
 
-.container {
+.adress {
 	display: flex;
 	flex-basis: 50%;
+	justify-content: space-around;
 	margin: 0% auto;
 }
 
