@@ -50,6 +50,12 @@ footer {
 	padding: 2rem;
 }
 
+.container {
+	display: flex;
+	flex-basis: 50%;
+	margin: 0% auto;
+}
+
 .contact {
 	list-style-type: none;
 	margin: 0;
